@@ -1,0 +1,53 @@
+.container{
+   /*  width: 100%; */
+    min-height: 100Px;
+    padding: 30px;
+    margin:50px 35%;
+
+    border: 2px solid rgb(173, 163, 163);
+    background:rgb(231, 231, 231);
+}
+
+.bio{
+    margin-bottom: 30px;
+}
+.bio h3{
+    font-size: 24px;
+    font-weight: 400;
+}
+.bio p{
+    font-size: 17px;
+    color: black;
+    margin-top: 5px;
+}
+.skills h3{
+    font-size:20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.skills ul li {
+    display:inline-block;
+    padding: 5px 15px;
+    margin-right: 20px;
+    background:rgb(212, 210, 205);
+    border-radius: 5px;
+}
+.socials-links{
+    margin-bottom: 30px;
+}
+
+.socials-links ul li{
+    display: inline-block;
+    padding: 5px 15px;
+    margin-right: 20px;
+}
+.socials-links ul li a{
+    color: rgb(5, 5, 63);
+    font-weight: bold;
+    text-decoration: none;
+}
+.socials-links ul li a:hover{
+    color: rgb(128, 128, 20);
+
+}
