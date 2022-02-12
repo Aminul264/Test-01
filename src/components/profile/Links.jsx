@@ -1,17 +1,17 @@
 import React from "react";
 
-const SocialsLink = () => (
+const SocialsLink = (props) => (
   <div className="socials-links">
     <h3>Socials links :</h3>
     <ul>
       <li>
-        <a href="#">FaceBook</a>
+        <a href={props.facebook}>FaceBook</a>
       </li>
       <li>
-        <a href="#">linkedIn</a>
+        <a href={props.linkedin}>linkedIn</a>
       </li>
       <li>
-        <a href="#">Github</a>
+        <a href={props.github}>Github</a>
       </li>
     </ul>
   </div>

@@ -1,12 +1,12 @@
 import React from "react";
 
-const Skills = () => (
+const Skills = (props) => (
   <div className="skills">
     <h3>Skills: </h3>
     <ul>
-      <li>JavaScript</li>
-      <li>C/C++</li>
-      <li>Java</li>
+      <li>{props.skill1}</li>
+      <li>{props.skill2}</li>
+      <li>{props.skill3}</li>
     </ul>
   </div>
 );
